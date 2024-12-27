@@ -31,9 +31,9 @@ namespace nasl2
 
         public override string? ToString()
         {
-            return $"ФИО:{Name}, количество битв:{AverageScore}," +
-                $" количество побед:{Course}," +
-                $" количество побед с превосходящими силами:{P}.Коэффициент:{GetQuality()}";
+            return $"ФИО:{Name}, средний балл:{AverageScore}," +
+                $" курс:{Course}," +
+                $" изучает английский:{P}.Коэффициент:{GetQuality()}";
         }
     }
 }
